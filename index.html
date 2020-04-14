@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.0/jquery.dataTables.min.js"></script>
+		<link rel="stylesheet" href="Scripts\style.css" />
+		<link rel="stylesheet" href="Scripts\jquery-dataTables.css" />
+		<link rel="stylesheet" href="Scripts\jquery-dataTables-themeroller.css" />
+		<script src="Scripts\main.js"></script>
+	</head>
+
+	<body background="images/Dark-mode.jpg">
+		<h1><center>Resource Allocator</center></h1>
+		<div class="container">
+			<div class="element_1">
+				<table class="dataTable" id="table1">
+					<thead>
+						<tr>
+							<th class="small">Images</th>
+							<th class="big">Names</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><img src="Images\Ellipse 1-1.png" /></td>
+							<td>Andreea Lucas</td>
+						</tr>
+						<tr>
+							<td><img src="Images\Ellipse 1-2.png" /></td>
+							<td>Doris Patel</td>
+						</tr>
+						<tr>
+							<td><img src="Images\Ellipse 1-3.png" /></td>
+							<td>Elizabeth Fisher</td>
+						</tr>
+						<tr>
+							<td><img src="Images\Ellipse 1-4.png" /></td>
+							<td>Kelly Young</td>
+						</tr>
+						<tr>
+							<td><img src="Images\Ellipse 1-5.png" /></td>
+							<td>Jonathan Carpenter</td>
+						</tr>
+						<tr>
+							<td><img src="Images\Ellipse 1-6.png" /></td>
+							<td>Harry Palmar</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="element_2">
+				<div>
+					<button id="RightMove" style="float:left;">Assign &raquo;</button>
+				</div>
+				<div>
+					<button id="LeftMove" style="float:left;">&laquo; Revoke</button>
+				</div>
+			</div>
+
+			<div class="element_3">
+				<table class="dataTable" id="table2">
+					<thead>
+						<tr>
+							<th class="small">Images</th>
+							<th class="big">Names</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><img src="Images\Ellipse 1.png" /></td>
+							<td>Silvy Shaw</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<button type="button" onclick="darkmode()"> Dark Mode </button>
+	</body>
+</html>
